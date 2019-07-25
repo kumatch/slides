@@ -14,8 +14,10 @@ Yosuke Kumakura
 
 ---
 
-> 「マルチプラットフォームに展開されるソフトを Go で開発する」
-> ビルド環境 (CI) を考える
+## お題
+
+「マルチプラットフォームに展開される
+ソフトを Go で開発する」ときの CI 環境 を考える
 
 ---
 
@@ -74,21 +76,21 @@ Yosuke Kumakura
 
 ---
 
-## AWS CodeBuild / GCP Cloud Build
-
-* Docker によるビルド環境
-  * Windows / Linux
-* 自分に必要なものを１つずつ作りましょうみたいなイメージ
-  * 手間はかかるが好き勝手はできそう
-
----
-
 ## Azure DevOps (Pipelines)
 
 * Windows / OSX / Linux
 * 「CIサービス」のシンプルさとマネージドのいいとこ取り
 
 ![inline fill](azure-1.png)
+
+---
+
+## AWS CodeBuild / GCP Cloud Build
+
+* Docker によるビルド環境
+  * Windows / Linux
+* 自分に必要なものを１つずつ作りましょうみたいなイメージ
+  * 手間はかかるが好き勝手はできそう
 
 ---
 
